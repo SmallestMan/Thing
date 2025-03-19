@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: green;
+            animation: rainbowBackground 2s infinite;
+        }
+
+        @keyframes rainbowBackground
+        {
+            0% { background-color: blue;}
+            50% { background-color: red;}
+            100% { background-color: green;}
+        
+        }
+        table, th, td 
+        {
+            border:1px solid black;
+            color: black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .comp
+        {
+            background-color: cyan;
+        }
+        .des
+        {
+            background-color: orangered;
+        }
+        .math 
+        {
+            background-color: red;
+        }
+        .eng 
+        {
+            background-color: blue;
+        }
+        .ss 
+        {
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Period</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th>
+        </tr>
+        <tr>
+            <td>1</td><td class="math">Math</td><td>Fitness</td><td class="des">Game Design</td><td class="ss">Sports Skill</td><td class="comp">Computing</td>
+        </tr>
+        <tr>
+            <td>2</td><td class="ss">Sports Skill</td><td class="des">Game Design</td><td>Connect</td><td class="comp">Computing</td><td>Connect</td>
+        </tr>
+        <tr>
+            <td>3</td><td>Fitness</td><td class="math">Math</td><td class="eng">English</td><td>Fitness</td><td class="des">Game Design</td>
+        </tr>
+        <tr>
+            <td>4</td><td class="eng">English</td><td class="comp">Sports Skill</td><td class="comp">Computing</td><td class="comp">Math</td><td class="comp">English</td>
+        </tr>
+    </table>
+</body>
+</html>

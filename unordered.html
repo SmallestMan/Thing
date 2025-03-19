@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unorder</title>
+
+    <style>
+      body {
+            background-color: green;
+            animation: rainbowBackground 2s infinite;
+        }
+
+        @keyframes rainbowBackground
+        {
+            0% { background-color: blue;}
+            50% { background-color: red;}
+            100% { background-color: green;}
+        
+        }
+
+        .hide {
+          display: none;
+        }
+            
+        .myDIV:hover + .hide {
+          display: block;
+          color: red;
+        }
+        </style>
+</head>
+<body style='background-color:pink;'>
+    <h1 style="text-align:center;" style="font-size:150%;" style="font-family: Arial, Helvetica, sans-serif;">Places I want to go</h1>
+    <ul>
+    <li style="color: darkmagenta;"><div class="myDIV">Japan</div></li>
+    <li style="color: black;"><div class="myDIV">Perth</div></l1>
+    <li style="color: yellow;"><div class="myDIV">Outside</div></l1>
+    <div class="hide"><img src="park-go-outside-and-pray-retreat-reflection.jpg" alt="img" width="400" height="250"></div>
+    </ul>
+
+    <footer>
+        <p>Virus Link 2: <br>
+        <a href="http://127.0.0.1:5500/index.html" style="text-decoration: none;">goggle.com</a></p>
+      </footer>
+</body>
+</html>
